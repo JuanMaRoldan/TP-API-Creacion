@@ -14,7 +14,7 @@ const genresController = {
             .then(genre => {
                 res.render('genresDetail.ejs', {genre});
             });
-    },
+    }
 
 }
 
